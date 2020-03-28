@@ -1,87 +1,127 @@
-<h2>Udacity Intro to Programming Course - Lesson 1 - HTML - My Notes</h2>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MY NOTES (TITLE)</title>
+    </head>
+    <body>
+        <h2>Udacity Intro to Programming Course - Lesson 1 - HTML - My Notes</h2>
 
-<p>
-    Starting with the definition of <mark>markup</mark>:<br>
-    A markup is the way of formatting the appearence or use of your elements on your browzer.<br>
-</p>
+        <p>
+            <mark>This will be the body of my document. </mark><br>
+            A HTML doc starts always with a <em>'!DOCTYPE html'</em>
+            element, and then we have a <em>'html'</em> + definition of language to be used in the doc.<br>
+            After that we have the <em>'head'</em> element, which will hold the title (necessary), stylesheets, 
+            and scripts to run in your webpage. <br>
+            After we have the <em>'body'</em> element, that will hold all the parts to be displayed 
+            in your webpage.
+        </p>
 
-<h3>Elements</h3>
+        <p>
+            Starting with the definition of <mark>markup</mark>:<br>
+            A markup is the way of formatting the appearence or use of your elements on your browzer.<br>
+        </p>
 
-<p>
-    <strong>Examples:</strong><br>
-    A <em>'em'</em> inside angle brakets is made to <em>something</em><br>
-    A <strong>'strong'</strong> inside angle brakets is used to make the word <strong>boldface</strong><br>
-    'Br' inside angle brakets<br> breaks <br> the line.<br>
-    'Br' is a void element: Does not need a end tag
-</p>
+        <h3>Elements</h3>
 
-<p>
-    Let's try a few other HTML elements:<br>
-    This one it called <mark>'mark'</mark>.<br>
-    Another one is <sub>'sub'</sub> and <sup>'sup'</sup>.<br>
-    We can use more than one type of tags in our text at once.<br>
-    Like <em><mark>'em and mark'</mark></em>, be careful nesting then correctly.
-</p>
+        <p>
+            <strong>Examples:</strong><br>
+            An <em>'em'</em> inside angle brackets is made to <em>italicize</em> something<br>
+            A <strong>'strong'</strong> inside angle brackets is used to make the word <strong>boldface</strong><br>
+            'Br' inside angle brackets<br> breaks <br> the line.<br>
+            'Br' is a void element: Does not need a end tag.
+        </p>
 
-<p>
-    An element can be a block or inline element.<br>
-    A block element create an invisible box with <em>width, height and margin before and after.</em>
-</p>
+        <p>
+            Let's try a few other HTML elements:<br>
+            This one it called <mark>'mark'</mark>.<br>
+            Another one is <sub>'sub'</sub> and <sup>'sup'</sup>.<br>
+            We can use more than one type of tags in our text at once.<br>
+            Like <em><mark>'em and mark'</mark></em>, be careful nesting them correctly.
+        </p>
 
-<p>
-    An element is made of tag(s) and content.<br>
-    Usually, we have an opening tag, the content and a closing tag.<br>
-    Like this: <em> '<(opening tag) em(content) >(closing tag)'</em> <br>
-    For some elements the closing tags are optional, like 'li'(list) and 'p'(paragraph).<br>
-    This happen because the browser knows there has to be a closing tag before the next
-    opening tag for the same element. <br>
-    There is no paragraph inside a paragraph.
-    <br>
-    Some elements does not take any closing tag, like 'br'</em>
-</p>
+        <p>
+            An element can be a block or inline element.<br>
+            A block element create an invisible box with <em>width, height and margin before and after.</em>
+        </p>
 
-<div> 
-    A <strong>division</strong> element separate what is inside it in a block, as well as a paragraph element.
-    It also creates an invisible box.
-</div>
+        <p>
+            An element is made of tag(s) and content.<br>
+            Usually, we have an opening tag, the content and a closing tag.<br>
+            Like this: <em> opening tag + content + closing tag</em> <br>
+            For some elements the closing tags are optional, like 'li'(list) and 'p'(paragraph).<br>
+            This happen because the browser knows there has to be a closing tag before the next
+            opening tag for the same element. <br>
+            There is no paragraph inside a paragraph.
+            <br>
+            Some elements does not take any closing tag, like <em>'br'</em>.
+        </p>
 
-<h4>Lists</h4>
-<p>
-    The 'li' element stands for list. A list can be <strong>ordered - 'ol'</strong> 
-    or <strong>unordered - 'ul'</strong><br>
-    An <mark> unordered list</mark> has bullets (default):
-    <ul>
-        <li> Books
-        <li> Pencil
-        <li> Pens
-        <li> Notebook
-    </ul>
-   
-    An <mark>ordered list</mark> has numbers (default):
-   
-    <ol>
-        <li> Books
-        <li> Pencil
-        <li> Pens
-        <li> Notebook
-    </ol>
-   
-   We can create a list inside a list, it is called nested list, like this:
-    <ul>
-        <li>Animals
+        <div> 
+            A <strong>division</strong> element separate what is inside it in a block, as well as a paragraph element.
+            It also creates an invisible box.
+        </div>
+
+        <h3>Lists</h3>
+        <p>
+            The 'li' element stands for list. A list can be <strong>ordered - 'ol'</strong> 
+            or <strong>unordered - 'ul'</strong><br>
+            An <mark> unordered list</mark> has bullets (default):
+        </p>
+            <ul>
+                <li> Books
+                <li> Pencil
+                <li> Pens
+                <li> Notebook
+            </ul>
+        
+            An <mark>ordered list</mark> has numbers (default):
+        
             <ol>
-                <li>Dog</li>
-                <li>Horse</li>
-                <li>Cat</li>
+                <li> Books
+                <li> Pencil
+                <li> Pens
+                <li> Notebook
             </ol>
-        <li>Flowers
-            <ol>
-                <li>Sunflower</li>
-                <li>Roses</li>
-            </ol>
-   </ul>
-</p>
+        
+        We can create a list inside a list, it is called nested list, like this:
+            <ul>
+                <li>Animals
+                    <ol>
+                        <li>Dog</li>
+                        <li>Horse</li>
+                        <li>Cat</li>
+                    </ol>
+                <li>Flowers
+                    <ol>
+                        <li>Sunflower</li>
+                        <li>Roses</li>
+                    </ol>
+            </ul>
 
+        <h3>Hypertext</h3>
+
+        <p>
+            Now let's try to use another reference not only text.<br>
+            I will add this link above using the <strong>'a'</strong> element.<br>
+            To use an <strong>'a'</strong> element we will need more than just the tag. <br>
+            We will need the name and value for the attribute.<br>
+            It will be something like 'a href=http://...net'.<br>
+            This is my first hypertext in a webpage, and I choose the one I visit the most:<br><br>
+            <a href="https://www.netflix.com/ie/" target="_blank"><strong>NETFLIX</strong></a>
+        </p>
+
+        <h3>Image</h3>
+        <p>
+            To add some image to your website it will be needed to add an <strong>'img'</strong> element.<br>
+            The <strong>'img'</strong> element takes a source <em>'src'</em> and a <em>'alt'</em> references.<br>
+            The <em>'src'</em> reference is the address of the image, and the <em>'alt'</em> is what will be showed
+            if the image can't be loaded.<br>
+            Here is one picture of one of my favourite games character. I will set the link of it too.<br><br>
+                <a href="https://hollowknightsilksong.com/wp-content/uploads/2019/02/website_mini_0000_mini3.jpg" target="_blank">"Hollow Knight Silksong"<br> 
+                <img src="https://hollowknightsilksong.com/wp-content/uploads/2019/02/website_mini_0000_mini3.jpg" alt="Hollow Knight Silksong"></a>
+        </p>
+    </body>
+</html>
 
 
 
