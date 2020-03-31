@@ -1,0 +1,27 @@
+h2 {
+    font: bold courier, serif;
+    color: rgb(247,99,123);
+    border: 2px solid pink;
+    padding: 0.5em;
+    margin: 0.2em;
+    width: 800px;
+}
+
+h3 {
+    color: rgb(247, 99, 123);
+    font: bold 14pt Courier, serif;
+}
+
+em{
+    color:red;
+}
+
+#CSS_style {
+    font: bold 14pt Courier, Arial, monospace;
+    color: pink;
+    border: 2px solid pink;
+    padding: 0.5em;
+    margin: 0.2em;
+    width: 600px;
+}
+
