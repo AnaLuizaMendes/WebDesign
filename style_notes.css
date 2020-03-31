@@ -1,10 +1,16 @@
+/* This is how you make a comment in your CSS document */
+
 h2 {
     font: bold courier, serif;
     color: rgb(247,99,123);
+    /*To create a visible box around the headline:*/
     border: 2px solid pink;
     padding: 0.5em;
     margin: 0.2em;
-    width: 800px;
+    max-width: 750px;
+    /*If you want your box to adjust with the wide of the window*/
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h3 {
@@ -16,12 +22,23 @@ em{
     color:red;
 }
 
+#example {
+    border: 2px solid pink;
+    padding: 0.5em;
+    margin: 0.2em;
+    max-width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #CSS_style {
     font: bold 14pt Courier, Arial, monospace;
     color: pink;
     border: 2px solid pink;
     padding: 0.5em;
-    margin: 0.2em;
-    width: 600px;
+    margin: 0em;
+    max-width: 580px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
